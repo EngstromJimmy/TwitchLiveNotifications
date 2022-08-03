@@ -17,5 +17,10 @@
     "twitchname": "aluthecrow",
     "titlefilters": [ "blazor" ],
     "twittername": "AlucardMG36"
+  },
+  {
+    "twitchname": "VisualStudio",
+    "titlefilters": [ "blazor" ],
+    "twittername": "VisualStudio"
   }
 ]
