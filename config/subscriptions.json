@@ -12,6 +12,10 @@
   {
     "twitchname": "codeitlive",
     "titlefilters": ["blazor"]
+  },
+  {
+    "twitchname": "aluthecrow",
+    "titlefilters": [ "blazor" ],
+    "twittername": "AlucardMG36"
   }
-  
 ]
