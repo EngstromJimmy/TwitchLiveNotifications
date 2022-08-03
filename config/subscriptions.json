@@ -8,5 +8,10 @@
     "twitchname": "csharpfritz",
     "twittername": "csharpfritz",
     "discordname": "335223858258903040"
+  },
+  {
+    "twitchname": "codeitlive",
+    "titlefilters": ["blazor"]
   }
+  
 ]
