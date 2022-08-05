@@ -61,7 +61,10 @@ public class OnStreamOnline
                     Text = BuildMessage(_twitterTemplate, streamerName, streamUri, channel.GameName, channel.Title)
                 };
                 QueueHelpers.SendMessage(_logger, _queueClientService, ConfigValues.queueTwitterHandler, JsonSerializer.Serialize(tweetMessage));
-
+            }
+            else
+            {
+                _logger.LogInformation("Twitter template is empty");
             }
 
             if (!string.IsNullOrEmpty(_discordTemplate))
@@ -72,6 +75,10 @@ public class OnStreamOnline
                     Content = BuildMessage(_discordTemplate, streamerName, streamUri, channel.GameName, channel.Title)
                 };
                 QueueHelpers.SendMessage(_logger, _queueClientService, ConfigValues.queueDiscordHandler, JsonSerializer.Serialize(discordMessage));
+            }
+            else
+            {
+                _logger.LogInformation("Discord template is empty");
             }
 
             await StreamStatusEntry.SetTwitchStreamStatusAsync(
@@ -87,6 +94,10 @@ public class OnStreamOnline
                 },
                 _configTable
             );
+        }
+        else
+        {
+            _logger.LogInformation("Filters did not match for title {0} and category {1}", channel.Title, channel.GameName);
         }
         return notification;
     }

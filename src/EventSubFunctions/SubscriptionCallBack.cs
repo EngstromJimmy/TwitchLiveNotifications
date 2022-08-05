@@ -32,7 +32,6 @@ public class SubscriptionCallBack
         var type = req.Headers.GetValues(EventSubHeaderConst.MessageType).FirstOrDefault();
         var messageId = req.Headers.GetValues(EventSubHeaderConst.MessageId).FirstOrDefault();
         string[] requestList = Array.Empty<string>();
-
         // For notification events, we need to keep track of duplicate requests.
         if (type == "notification")
         {

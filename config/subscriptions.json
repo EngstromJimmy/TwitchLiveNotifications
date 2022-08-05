@@ -22,5 +22,17 @@
     "twitchname": "VisualStudio",
     "titlefilters": [ "blazor" ],
     "twittername": "VisualStudio"
+  },
+  {
+    "twitchname": "SoftAsInSoftware",
+    "titlefilters": [ "blazor" ],
+    "twittername": "aafvstam"
+  },
+  {
+    "twitchname": "one1lion",
+    "titlefilters": [ "blazor" ],
+    "twittername": "one1lion",
+    "discordname": "755547992609652818"
   }
+  
 ]
