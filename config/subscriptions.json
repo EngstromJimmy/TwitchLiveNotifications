@@ -11,16 +11,16 @@
   },
   {
     "twitchname": "codeitlive",
-    "titlefilters": ["blazor"]
+    "titlefilters": [ "blazor", "maui" ]
   },
   {
     "twitchname": "aluthecrow",
-    "titlefilters": [ "blazor" ],
+    "titlefilters": [ "blazor", "maui" ],
     "twittername": "AlucardMG36"
   },
   {
     "twitchname": "VisualStudio",
-    "titlefilters": [ "blazor" ],
+    "titlefilters": [ "blazor","maui" ],
     "twittername": "VisualStudio"
   },
   {
@@ -38,5 +38,11 @@
     "twitchname": "EgilHansen",
     "titlefilters": [ "blazor", "bunit" ],
     "twittername": "EgilHansen"
+  },
+  {
+    "twitchname": "danielhindrikes",
+    "titlefilters": [ "blazor", "maui" ],
+    "twittername": "hindrikes",
+    "discordname": "696623720009302056"
   }
 ]
