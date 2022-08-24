@@ -20,7 +20,7 @@
   },
   {
     "twitchname": "VisualStudio",
-    "titlefilters": [ "blazor","maui" ],
+    "titlefilters": [ "blazor", "maui" ],
     "twittername": "VisualStudio"
   },
   {
@@ -44,5 +44,10 @@
     "titlefilters": [ "blazor", "maui" ],
     "twittername": "hindrikes",
     "discordname": "696623720009302056"
+  },
+  {
+    "twitchname": "edcharbeneau",
+    "titlefilters": [ "blazor" ],
+    "twittername": "edcharbeneau"
   }
 ]
