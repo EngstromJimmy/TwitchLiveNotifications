@@ -49,5 +49,11 @@
     "twitchname": "edcharbeneau",
     "titlefilters": [ "blazor" ],
     "twittername": "edcharbeneau"
+  },
+  {
+    "twitchname": "MrPeterLMorris",
+    "titlefilters": [ "blazor" ],
+    "twittername": "MrPeterLMorris"
   }
+
 ]
